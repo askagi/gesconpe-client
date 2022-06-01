@@ -1,0 +1,35 @@
+.container-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 23px 100px 20px 100px;
+}
+
+.logo,
+.exit {
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.content-user {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.content-user span {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.profile-area {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.exit:hover {
+    transform: scale(1.1);
+}

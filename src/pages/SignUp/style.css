@@ -1,0 +1,25 @@
+.container-sign-up {
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 0 90px;
+}
+
+.content-form {
+    width: 35%;
+    padding: 30px 32px 30px 32px;
+    background: #FFF;
+}
+
+.content-form h5 {
+    font-weight: 500;
+    font-size: 28px;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    color: #7978D9;
+    margin-bottom: 10px;
+}
+
+form {
+    gap: 30px;
+}
